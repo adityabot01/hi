@@ -1,4 +1,4 @@
-#Github.com/Vasusen-code
+#Github.com/Vasusen-c1ode
 
 from pyrogram import Client
 
@@ -16,7 +16,7 @@ API_ID = config("19207498", default=None, cast=int)
 API_HASH = config("174c00bab9c841383cee419c3da13651", default=None)
 BOT_TOKEN = config("5640698683:AAGG8qDBb95l4nRM4OMVqXcfFOFmGJcoXZY", default=None)
 SESSION = config("5", default=None)
-FORCESUB = config("-1001806508673", default=None)
+FORCESUB = config("freecoursesfree1", default=None)
 AUTH = config("1444300019", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
